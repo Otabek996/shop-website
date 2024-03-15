@@ -4,12 +4,12 @@
 </template>
 
 <script>
-import LogoComp from './logo/LogoComp.vue'
+import LogoComp from "./logo/LogoComp.vue";
 
 export default {
-  name: 'NavbarComp',
+  name: "NavbarComp",
   components: {
     LogoComp,
   },
-}
+};
 </script>

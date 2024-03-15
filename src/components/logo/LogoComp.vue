@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name: 'LogoComp'
-}
+  name: "LogoComp",
+};
 </script>

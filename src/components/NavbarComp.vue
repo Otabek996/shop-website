@@ -22,17 +22,22 @@
       </div>
     </div>
 
-    <div class="navbar-right"></div>
+    <div class="navbar-right">
+      <MenuButtonComp />
+      <MenuButtonComp />
+    </div>
   </nav>
 </template>
 
 <script>
 import LogoComp from "./logo/LogoComp.vue";
+import MenuButtonComp from "./Buttons/MenuButtonComp.vue";
 
 export default {
   name: "NavbarComp",
   components: {
     LogoComp,
+    MenuButtonComp,
   },
 };
 </script>

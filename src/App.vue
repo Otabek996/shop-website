@@ -22,6 +22,31 @@ export default {
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Flow+Block&family=Ojuju:wght@200..800&display=swap");
 
+/*==================== VARIABLES ====================*/
+:root {
+  /*========== Colors ==========*/
+
+  /*========== Font and typography ==========*/
+  --font-family-athiti: "Athiti", sans-serif;
+  --font-family-ojuju: "Ojuju", sans-serif;
+  --font-family-flowblock: "Flow Block", system-ui;
+
+  /*========== Font size ==========*/
+
+  /*========== Line height ==========*/
+
+  /*========== Font weight ==========*/
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /*========== Font style ==========*/
+  --font-style-normal: normal;
+}
+
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;

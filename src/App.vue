@@ -25,6 +25,8 @@ export default {
 /*==================== VARIABLES ====================*/
 :root {
   /*========== Colors ==========*/
+  --text-color-white: #ffffff;
+  --text-color-black: #000000;
 
   /*========== Font and typography ==========*/
   --font-family-athiti: "Athiti", sans-serif;
@@ -55,7 +57,10 @@ export default {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-athiti);
+  font-weight: var(--font-weight-regular);
+  font-style: var(--font-style-normal);
+  color: var(--text-color-black);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

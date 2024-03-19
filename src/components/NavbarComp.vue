@@ -23,8 +23,8 @@
     </div>
 
     <div class="navbar-right">
-      <MenuButtonComp />
-      <MenuButtonComp />
+      <MenuButtonComp :icon="buttonIconMenu" />
+      <MenuButtonComp :icon="buttonIconUser" />
     </div>
   </nav>
 </template>
@@ -38,6 +38,13 @@ export default {
   components: {
     LogoComp,
     MenuButtonComp,
+  },
+
+  data() {
+    return {
+      buttonIconMenu: "ri-menu-line",
+      buttonIconUser: "ri-user-line",
+    };
   },
 };
 </script>

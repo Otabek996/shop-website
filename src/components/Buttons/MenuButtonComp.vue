@@ -1,5 +1,5 @@
 <template>
-  <button><i :class="icon"></i></button>
+  <button class="button"><i :class="icon"></i></button>
 </template>
 
 <script>
@@ -9,3 +9,12 @@ export default {
   props: ["icon"],
 };
 </script>
+
+<style scoped>
+.button {
+  border: 2px solid red;
+  border-radius: 50%;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+</style>

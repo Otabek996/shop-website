@@ -49,13 +49,21 @@ export default {
   justify-content: space-between;
   border: 2px solid black;
   border-radius: 16px;
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 
 .navbar-list {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.navbar-link {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color-black);
+  text-transform: uppercase;
 }
 
 .navbar-right {

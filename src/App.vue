@@ -56,6 +56,10 @@ export default {
   margin: 0;
 }
 
+body {
+  padding: 20px;
+}
+
 #app {
   font-family: var(--font-family-athiti);
   font-weight: var(--font-weight-regular);

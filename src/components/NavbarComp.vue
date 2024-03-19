@@ -31,7 +31,7 @@
 
 <script>
 import LogoComp from "./logo/LogoComp.vue";
-import MenuButtonComp from "./Buttons/MenuButtonComp.vue";
+import MenuButtonComp from "./button/MenuButtonComp.vue";
 
 export default {
   name: "NavbarComp",

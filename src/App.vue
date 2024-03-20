@@ -1,4 +1,5 @@
 <template>
+  <ModalUserComp />
   <NavbarComp />
   <nav>
     <router-link to="/">Home</router-link> |
@@ -9,11 +10,13 @@
 
 <script>
 import NavbarComp from "./components/NavbarComp.vue";
+import ModalUserComp from "./components/modal/ModalUserComp.vue";
 
 export default {
   name: "App",
   components: {
     NavbarComp,
+    ModalUserComp,
   },
 };
 </script>
@@ -67,6 +70,7 @@ body {
   color: var(--text-color-black);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 ul {
